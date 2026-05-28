@@ -16,8 +16,8 @@ MIN_VOLUME = 1000000
 TOP_COINS  = 20
 
 def send_telegram(message):
-    url  = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    data = {"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "HTML"}
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+data = {"chat_id": TELEGRAM_CHAT_ID, "text": message}
     try:
         resp = requests.post(url, data=data, timeout=10)
         print(f"Telegram response: {resp.status_code}")
