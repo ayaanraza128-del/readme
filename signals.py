@@ -5,8 +5,8 @@ from datetime import datetime
 # ══════════════════════════════════════════
 #  APNA TOKEN AUR CHAT ID YAHAN DAALO
 # ══════════════════════════════════════════
-TELEGRAM_TOKEN   = "8846551406:AAFKsk_3Y4pcyUwea8_OuX0Yv036QdMvfIQ"
-TELEGRAM_CHAT_ID  = "8901565873"
+TELEGRAM_TOKEN   = "8840920612:AAHNcg-7NyE44LxjRw0ytfX-toz0ymbXsPg"
+TELEGRAM_CHAT_ID  = "5911994666"
 
 # ══════════════════════════════════════════
 #  SETTINGS
