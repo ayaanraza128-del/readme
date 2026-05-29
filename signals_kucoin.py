@@ -18,8 +18,8 @@ logging.basicConfig(
 )
 log = logging.getLogger("kucoin")
 
-TELEGRAM_TOKEN   = os.getenv("TELEGRAM_TOKEN")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+TELEGRAM_TOKEN   = os.getenv("8977111038:AAH6i592BJMCGL-PTliP9_RkYDfHa0hs8L0")
+TELEGRAM_CHAT_ID = os.getenv("5911994666")
 
 KUCOIN_BASE      = "https://api.kucoin.com/api/v1"
 
